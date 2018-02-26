@@ -1,0 +1,9 @@
+
+(net/ryanair/tests/a_t_m_scenario.story)
+Scenario: User get payment declined message
+Given I make a booking from “DUB” to “SXF” on 12/03/2018 for 2 adults and 1 child (FAILED)
+(java.lang.NullPointerException)
+When I pay for booking with card details 5555 5555 5555 5557, 10/18 and 265 (NOT PERFORMED)
+Then I should get payment declined message (NOT PERFORMED)
+
+

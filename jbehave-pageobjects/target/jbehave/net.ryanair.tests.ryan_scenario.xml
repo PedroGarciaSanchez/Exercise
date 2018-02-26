@@ -1,0 +1,7 @@
+<story path="net/ryanair/tests/ryan_scenario.story" title="">
+<scenario keyword="Scenario:" title="User get payment declined message">
+<step outcome="successful">Given I make a booking from &#8220;DUB&#8221; to &#8220;SXF&#8221; on 12/03/2018 for 2 adults and 1 child</step>
+<step outcome="successful">When I pay for booking with card details 5555 5555 5555 5557, 10/18 and 265</step>
+<step outcome="successful">Then I should get payment declined message</step>
+</scenario>
+</story>
